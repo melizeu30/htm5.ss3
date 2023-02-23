@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+main{
+    font-size: 1.4em;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(to top , rgb(197, 171, 171), rgb(143, 111, 111));
+}
+
+    
+    
+section#login{
+  
+  
+    background: blue url('imagens/tablet.jpg') repeat;
+    background-size: contain;
+    background-origin: padding-box;
+
+}
+
+ 
+
+
+
+span#menu{
+    display: none;
+}
+
+menu#opcao{
+    display: block;
+    
+}
+
+menu > ul > li{
+    display: inline-block
+} 
+  
+}
+
+
+@media screen and (min-width:993px){
+
+
+
+
+    main{
+        font-size: 1.4em;
+        box-sizing: border-box;
+    }
+    
+    header{
+        background-image: linear-gradient(to top , rgb(197, 171, 171), rgb(143, 111, 111));
+    }
+    
+        
+        
+    section#login{
+      
+      
+        background: blue url('imagens/telagrande.jpg') no-repeat;
+        background-size: contain;
+        background-origin: padding-box;
+        width: 60vw;
+    
+    }
+    
+     
+
+
+}
+

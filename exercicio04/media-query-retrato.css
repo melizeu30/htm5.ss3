@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+section#login{
+  
+    background: blue url('imagens/images.jpg') repeat;
+    background-size: cover;
+    background-origin: padding-box;
+}
+
+
+@media screen and  (min-width: 768px) and( max-width: 767px) {
+
+    main{
+        font-size: 1.4em;
+        box-sizing: border-box;
+    }   
+
+
+
+     
+
+    body{
+        background-color: aqua;
+    }
+   
+    span#menu{
+        display: none;
+    }
+
+    menu#opcao{
+        display: block;
+       
+    }
+
+    menu > ul > li{
+        display: inline-block
+    } 
+  
+}
+
+
+

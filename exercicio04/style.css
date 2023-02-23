@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+
+    background-color: rgba(196, 190, 185, 0.521);
+}
+
+
+
+
+
+ header{
+    background-color: rgb(192, 192, 211);
+
+}
+
+
+section#login {
+    display: block;
+    background-color: blue;
+    transition: width 1s, height 1s;
+   
+}
+
+section#login > div#entrardados{
+    padding: 10px;
+   
+
+}
+
+section#login > div#entrardados {
+    padding: 10px;
+}
+
+section#login > div#entrardados > p{
+    padding: 10px;
+}
+
+section#login > div#entrardados > form{
+    padding:10px;  
+ 
+}
+
+div#usuario > label{
+    display: none;
+   
+    
+    
+
+}
+
+
+
+section input{ 
+    margin: 1px;  
+    font-size: 1em;
+    display: inline-block;
+    width: calc(200px);
+    height:calc(100% - 30px);
+    background-color: #94cfcd;
+    border-radius: 5px;
+
+}
+
+section  input:focus-within{
+    background-color: white;
+}
+
+
+
+section input#enviar{   
+    display: block;
+    width: 203px;
+    height: 30px;
+    margin-left: 5px;
+   
+ 
+}
+
+section a{
+    color: white;
+    display:block;
+    margin-top: 30px;
+    margin-left: 5px;
+   
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+span#menu{
+  
+    background-color: rgb(132, 133, 187);
+    width: 100vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+menu {
+    display: none;
+
+
+    /*primeiro display block*/
+
+}
+
+menu >ul{
+    list-style-type: none;   
+
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(95, 95, 121, 0.37);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    border-top: 1px solid rgb(226, 222, 222);
+}
+menu > ul > li > a:hover{
+
+   background-color: rgba(236, 229, 229, 0.075);
+
+
+}
+
+
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+article > h3{
+
+    padding-bottom: 20px;
+}
+
+article>p{
+    text-align: justify;
+    text-indent: 25px;
+    margin-bottom: 10px;
+    
+}
+
+
